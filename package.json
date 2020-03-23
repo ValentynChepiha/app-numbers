@@ -1,0 +1,28 @@
+{
+  "name": "app-numbers",
+  "version": "1.0.0",
+  "description": "task-test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentynChepiha/app-numbers.git"
+  },
+  "keywords": [
+    "node.js",
+    "JS"
+  ],
+  "author": "Valentyn Chepiha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValentynChepiha/app-numbers/issues"
+  },
+  "homepage": "https://github.com/ValentynChepiha/app-numbers#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
