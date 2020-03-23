@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work with numbers</title>
+    <link rel="stylesheet" href="/css/base.css">
+</head>
+<body>
+
+    <div class="app">
+        <form action="/" method="POST" class="app__file" enctype="multipart/form-data">
+            <div class="input">
+                <h3>If you do not select a file, the program calculates the default data. The data in the file must be a textual.</h3>
+                <input type="file" id="filedata" placeholder="Select file" name="filedata">
+            </div>
+            <button type="reset" class="btn">Clear</button>
+            <button type="submit" class="btn">Show result</button>
+        </form>
+        <div class="app__result">
+            <% if (min) { %>
+            <h3>Min :: <%=min%></h3>
+            <% } %>
+            <% if (max) { %>
+            <h3>Max :: <%=max%></h3>
+            <% } %>
+            <% if (average) { %>
+            <h3>Average :: <%=average%></h3>
+            <% } %>
+            <% if (median) { %>
+            <h3>Median :: <%=median%></h3>
+            <% } %>
+            <% if (error) { %>
+            <p class="error"><%=error%></p>
+            <% } %>
+        </div>
+    </div>
+
+</body>
+</html>
