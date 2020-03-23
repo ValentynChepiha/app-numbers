@@ -4,8 +4,8 @@
   "description": "task-test",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "prod": "node index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
