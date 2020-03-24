@@ -1,5 +1,7 @@
 To install need:
 
+0) install Node.js and git
+
 1) clone the project
 
     git clone ...
