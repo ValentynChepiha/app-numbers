@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const app = express();
 const upload = multer({ dest: 'data/' });
-const RESULT = {min: null, max:null, average:null, median: null, error: null};
+const RESULT = {min: null, max:null, average:null, median: null, incnumbers:null, decnumbers: null, error: null};
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
