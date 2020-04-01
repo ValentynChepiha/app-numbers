@@ -2,10 +2,10 @@
   "name": "app-numbers",
   "version": "1.0.0",
   "description": "task-test",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon js/index.js",
+    "start": "node js/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "multer": "^1.4.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.2"
   }
 }
